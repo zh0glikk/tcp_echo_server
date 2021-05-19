@@ -14,7 +14,7 @@ import (
 	"tcp_echo_server/internal/config"
 )
 
-const ShellToUse = "bash"
+const ShellToUse = "/bin/sh"
 
 type service struct {
 	logger           *logan.Entry
